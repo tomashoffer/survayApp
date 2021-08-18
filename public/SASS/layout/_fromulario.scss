@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form{
+   
+    p {
+        font-size: 1.4rem;
+        color: #333333;
+        margin: 2rem 0 0 0;
+    }
+
+    legend {
+        font-size: 2rem;
+        color: #333333;
+    }
+
+    label {
+        font-weight: 700;
+        text-transform: uppercase;
+        display: block;
+    }
+    input{
+        padding: 1rem;
+        display: block;
+        width: 90%;
+        background-color:white ;
+        border: 1px solid gray;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+    .form__buttons{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 2rem;
+        .form__login-button{
+            button{
+                background-color:#71B100;
+                color: white;
+                font-weight: 700;
+                text-decoration: none;
+                padding: 1rem 3rem;
+              
+                display: inline-block;
+                border: none;
+                   
+            }
+    
+        }
+    }
+  
+}

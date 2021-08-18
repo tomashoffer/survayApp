@@ -1,0 +1,41 @@
+.container-fluid {
+
+    .page-header {
+      text-align: center;
+      margin-top: 2rem
+    }
+    .render_surv{
+        margin: 0 auto;
+        margin-top: 3rem;
+        text-align: center;
+        border: 1px black solid;
+        width: 60%;
+        .icon_edit{
+            margin-left: 2rem;
+            margin-top: 3px;
+        }
+        .render_surv_title{
+            display: flex;
+            justify-content:center;
+            align-content: center;
+            text-align: center;
+            .title_surv{
+                text-align: center;
+            }
+        }
+    }
+}
+.modal{
+    .form_title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form_questions{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

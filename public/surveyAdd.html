@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./SASS/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img src="img/logoItc.jpg" alt="">
+          <a href="survey.html" class="navbar-brand">My Surveys</a>
+          <a href="surveyAdd.html" class="navbar-brand">Create Survey</a>
+          <div class="root"></div>
+          <button type="button" style="margin-right:3rem;" onclick="logOut()" class="logOutBtn btn btn-danger">LogOut</button>
+        </div>
+      </nav>
+      <h1 class="page-header">Create your own Survey</h1>
+      <div class="container_form">
+        <button class="btn btn-primary" id="addQuest">New Question</button>
+        <button class="btn btn-primary" id="subBtn" type="submit">Add to Survay</button>
+        <input
+          type="text"
+          name="title"
+          id="suvName"
+          class="form-control title_input"
+          placeholder="Suvery Name"
+        />
+        <div id="questionForm"></div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="surveyAdd.js"></script>
+  </body>
+</html>
+
+

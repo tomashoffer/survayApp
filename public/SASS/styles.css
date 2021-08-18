@@ -1,0 +1,233 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form p {
+  font-size: 1.4rem;
+  color: #333333;
+  margin: 2rem 0 0 0;
+}
+
+.form legend {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.form label {
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.form input {
+  padding: 1rem;
+  display: block;
+  width: 90%;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form .form__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2rem;
+}
+
+.form .form__buttons .form__login-button button {
+  background-color: #71B100;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  display: inline-block;
+  border: none;
+}
+
+button {
+  background: #71B100;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  text-align: center;
+  display: inline-block;
+  border: none;
+}
+
+body {
+  background-color: #b3b3b3;
+}
+
+body .container-fluid img {
+  width: 6rem;
+  height: 6rem;
+}
+
+body .container-fluid .page-header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+body .container-fluid .render_survey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  width: 37rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+body .container-fluid .render_survey .survey_info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  border: 1px solid black;
+  gap: 8rem;
+  margin-left: 2rem;
+  padding: 2rem;
+}
+
+body .container-fluid .render_survey .survey_info .title_survey {
+  text-decoration: none;
+}
+
+body .container-fluid .render_survey .survey_info .title_survey .title_surveys {
+  color: black;
+  cursor: pointer;
+}
+
+body .container-fluid .render_survey .survey_info .survey_icons {
+  margin-left: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+body .modal .icon_wpp {
+  text-decoration: none;
+}
+
+.container-fluid .container_form {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 20%;
+}
+
+.container-fluid .container_form .title_input {
+  margin-top: 1rem;
+}
+
+.container-fluid .container_form .question_input {
+  margin-top: 1rem;
+}
+
+.container-fluid .page-header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.container-fluid .render_surv {
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+  border: 1px black solid;
+  width: 60%;
+}
+
+.container-fluid .render_surv .icon_edit {
+  margin-left: 2rem;
+  margin-top: 3px;
+}
+
+.container-fluid .render_surv .render_surv_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.container-fluid .render_surv .render_surv_title .title_surv {
+  text-align: center;
+}
+
+.modal .form_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .form_questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario_surv {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.formulario_surv .form-select {
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.formulario_surv .questions_title {
+  margin: 1rem;
+}
+
+.formulario_surv .btnSubmit {
+  margin-top: 2rem;
+}
+
+.container_logIn {
+  width: 60%;
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=styles.css.map */

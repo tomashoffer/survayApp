@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(179, 179, 179);
+  .container-fluid {
+    img {
+      width: 6rem;
+      height: 6rem;
+    }
+    .page-header {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .render_survey {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 37rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      .survey_info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 1px solid black;
+        gap: 8rem;
+        margin-left: 2rem;
+        padding: 2rem;
+        .title_survey {
+          text-decoration: none;
+          .title_surveys {
+            color: black;
+            cursor: pointer;
+          }
+        }
+        .survey_icons {
+          margin-left: 4rem;
+          display: flex;
+          gap: 1rem;
+        }
+      }
+    }
+  }
+  .modal {
+    .icon_wpp {
+      text-decoration: none;
+    }
+  }
+}
